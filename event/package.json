@@ -1,0 +1,16 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "RabbitMQ",
+  "type": "module",
+  "scripts": {
+    "consumer": "node consumer.js",
+    "producer": "node producer.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "tp-link-tapo-connect": "^2.0.4"
+  }
+}
